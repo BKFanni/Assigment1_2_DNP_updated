@@ -1,0 +1,59 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Fanni",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 2,
+      "UserName": "Anna",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 3,
+      "UserName": "Klau",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 4,
+      "UserName": "Somebody",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 5,
+      "UserName": "wqfqw",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 6,
+      "UserName": "You",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 7,
+      "UserName": "Fannika",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 8,
+      "UserName": "asdf",
+      "Password": null,
+      "Posts": null
+    },
+    {
+      "Id": 9,
+      "UserName": "wadwqf",
+      "Password": null,
+      "Posts": null
+    }
+  ],
+  "Posts": []
+}
