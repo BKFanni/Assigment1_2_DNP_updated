@@ -1045,35 +1045,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tstfa\\.nuget\\packages\\": {}
+    "C:\\Users\\Lolek\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\tstfa\\.nuget\\packages\\",
-      "outputPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tstfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Application\\Application.csproj": {
-              "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Application\\Application.csproj"
+            "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj"
             },
-            "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\FileData\\FileData.csproj": {
-              "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\FileData\\FileData.csproj"
+            "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\FileData\\FileData.csproj": {
+              "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\FileData\\FileData.csproj"
             }
           }
         }

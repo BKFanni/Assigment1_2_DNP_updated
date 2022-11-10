@@ -42,3 +42,47 @@ D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\Microsof
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\data.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.exe
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Application.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\FileData.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Shared.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Application.pdb
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\FileData.pdb
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Shared.pdb
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
