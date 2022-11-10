@@ -848,3 +848,4 @@ D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\obj\Debug\net6.0\buil
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\obj\Debug\net6.0\build-gz\bA1WxSom.gz
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\obj\Debug\net6.0\build-gz\sO+Q3D2x.gz
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\obj\Debug\net6.0\build-gz\Hc+HqjcG.gz
+D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css

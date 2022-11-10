@@ -26,8 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewPosts.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
+[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Shared/SurveyPrompt.razor]
@@ -45,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope = b-ceegisofnu
 [D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lmj193ty0n
+
+[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewPosts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-lj17aabdv5
 
 [D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewUsers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y

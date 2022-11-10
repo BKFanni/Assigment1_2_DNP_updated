@@ -22,83 +22,76 @@
         <div class="form-group field">
             <label>Title:</label>
             <input type="text" @bind="postTitle" @bind:event="oninput"/>
-        </div>
-        <div class="form-group field">
+            <br/>
             <label>Description:</label>
-            <textarea @bind="postDesc" @bind:event="oninput"></textarea>
-        </div>
-        <div class="form-group field">
+            <input type="text" @bind="postDesc" @bind:event="oninput"/>
+            <br/>
             <label>Assignee:</label>
-            <select @bind="selectedUserId">
+            <select @bind="selectedUserId" @bind:event="oninput">
                 <option>Choose</option>
                 @foreach (User user in users)
                 {
                     <option value="@user.Id">@user.UserName</option>
                 }
             </select>
+            
         </div>
         <div class="button-row">
-            @if (!string.IsNullOrEmpty(msg))
-            {
-                <label style="color: @color">@msg</label>
-            }
-            <button @onclick="Create" disabled="@(string.IsNullOrEmpty(postTitle)|| string.IsNullOrEmpty(postDesc))" class="acceptbtn">Create</button>
+            <button @onclick="Create"  class="acceptbtn">Create</button>
         </div>
     }
-</div>
+</div >
 
-@code {
-    private IEnumerable<User>? users;
-    private int? selectedUserId;
-    private string postTitle = "";
-    private string postDesc = "";
-    private string msg = "";
-    private string color = "";
+          @code {
+              private IEnumerable<User>? users;
+              private int? selectedUserId;
+              private string postTitle = "";
+              private string postDesc = "";
+              private string msg = "";
+              private string color = "";
 
-    protected override async Task OnInitializedAsync()
-    {
-        msg = "";
-        try
-        {
-            users = await userService.GetUsers();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            msg = e.Message;
-        }
-    }
+              protected override async Task OnInitializedAsync()
+              {
+                  msg = "";
+                  try
+                  {
+                      users = await userService.GetUsers();
+                  }
+                  catch (Exception e)
+                  {
+                      Console.WriteLine(e);
+                      msg = e.Message;
+                  }
+              }
 
-    private Task Create()
-    {
-        msg = "";
+              private async Task Create()
+              {
+                  msg = "";
+                  Console.WriteLine("PUSHED!!!!!!!!!!!!!!");
+                  
+                  try
+                  {
+                      await postService.CreateAsync(new PostCreationDTO((int)selectedUserId, postTitle, postDesc));
+                      selectedUserId = null;
+                      postTitle = "";
+                      postDesc = "";
+                      msg = "Post successfully created.";
+                      Console.WriteLine("Success");
+                      color = "green";
+                  }
+                  catch (Exception e)
+                  {
+                      Console.WriteLine(e);
+                      msg = e.Message;
+                      color = "red";
+                  }
 
-        try{
-            postService.CreateAsync(new PostCreationDTO((int)selectedUserId, postTitle, postDesc));
-            
-            msg = "Post successfully created.";
-            color = "green";
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            msg = e.Message;
-            color = "red";
-        }
 
-        if (selectedUserId == null)
-        {
-            msg = "You must select an assignee!";
-        }
-        if (string.IsNullOrEmpty(postTitle))
-        {
-            msg = "Title cannot be empty!";
-        }
-        if (string.IsNullOrEmpty(postDesc))
-        {
-            msg = "Description cannot be empty!";
-        }
-        return Task.FromResult(msg);
-    }
+                  
+              }
 
-}
+          }
+@if (!string.IsNullOrEmpty(msg))
+                        {
+                            <label style="color: @color">@msg</label>
+                        }

@@ -42,6 +42,23 @@ public class PostFileDAO : IPostDAO
                 p.Title.Contains(searchParameters.TitleContains, StringComparison.OrdinalIgnoreCase));
         }
 
+        if (searchParameters.UserId!=null)
+        {
+            result = result.Where(p => p.Owner.Id == searchParameters.UserId);
+        }
+        
+        if (!string.IsNullOrEmpty(searchParameters.UserName))
+        {
+            // we know username is unique, so just fetch the first
+            result = Context.Posts.Where(p =>
+                p.Owner.UserName.Equals(searchParameters.UserName, StringComparison.OrdinalIgnoreCase));
+        }
+        
+        if (searchParameters.completedStatus != null)
+        {
+            result = result.Where(p => p.IsCompleted == searchParameters.completedStatus);
+        }
+
         return Task.FromResult(result);
 
     }
@@ -51,7 +68,7 @@ public class PostFileDAO : IPostDAO
         Post? existing = Context.Posts.FirstOrDefault(p => p.Id == post.Id);
         if (existing == null)
         {
-            throw new Exception($"Todo with id {post.Id} does not exist!");
+            throw new Exception($"Post with id {post.Id} does not exist!");
         }
 
         Context.Posts.Remove(existing);

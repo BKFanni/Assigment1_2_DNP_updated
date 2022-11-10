@@ -35,8 +35,9 @@ public class PostHttpClient : IPostService
                 return post;
     }
 
-    public async Task<ICollection<Post>> GetAsync(string? userName, int? userId, string? titleContains)
+    public async Task<ICollection<Post>> GetAsync(string? userName, int? userId, string? titleContains, bool? completedStatus)
     {
+        string query = ConstructQuery(userName, userId, completedStatus, titleContains);
         HttpResponseMessage response = await client.GetAsync("/posts");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
@@ -50,8 +51,38 @@ public class PostHttpClient : IPostService
         })!;
         return posts;
     }
+    
+    private static string ConstructQuery(string? userName, int? userId, bool? completedStatus, string? titleContains)
+    {
+        string query = "";
+        if (!string.IsNullOrEmpty(userName))
+        {
+            query += $"?username={userName}";
+        }
 
-    public async Task<IEnumerable<Post>> GetPosts(string? titleContains = null)
+        if (userId != null)
+        {
+            query += string.IsNullOrEmpty(query) ? "?" : "&";
+            query += $"userid={userId}";
+        }
+
+        if (completedStatus != null)
+        {
+            query += string.IsNullOrEmpty(query) ? "?" : "&";
+            query += $"completedstatus={completedStatus}";
+        }
+
+        if (!string.IsNullOrEmpty(titleContains))
+        {
+            query += string.IsNullOrEmpty(query) ? "?" : "&";
+            query += $"titlecontains={titleContains}";
+        }
+
+        return query;
+    }
+    
+
+    public async Task<IEnumerable<Post>> GetPosts(string? userName, int? userId, string? titleContains, bool? completedStatus)
     {
         string uri = "/posts";
         if (!string.IsNullOrEmpty(titleContains))

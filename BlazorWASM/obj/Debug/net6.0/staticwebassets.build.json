@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VReawBNn2xWlUb7GW+EHi/tOWrVKsNko0CkFtQWrf5M=",
+  "Hash": "4WLnlKIScYzf82e2L3EYLbsXfs2rEqQqd4Z6BfzHQ24=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -7359,6 +7359,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\wwwroot\\icons\\clear_funnel.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/clear_funnel.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\clear_funnel.png"
+    },
+    {
+      "Identity": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\wwwroot\\icons\\funnel.png",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "icons/funnel.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\funnel.png"
     },
     {
       "Identity": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\wwwroot\\index.html",

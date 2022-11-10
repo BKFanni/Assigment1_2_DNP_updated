@@ -9,8 +9,9 @@ public interface IPostService
     Task<ICollection<Post>> GetAsync(
         string? userName, 
         int? userId,
-        string? titleContains
+        string? titleContains,
+        bool? completedStatus
     );
     
-    Task<IEnumerable<Post>> GetPosts(string? titleContains=null);
+    Task<IEnumerable<Post>> GetPosts(string? userName, int? userId, string? titleContains, bool? completedStatus);
 }
