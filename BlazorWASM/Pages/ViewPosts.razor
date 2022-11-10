@@ -2,8 +2,37 @@
 @using global::Shared.Models
 @using HttpClient.ClientInterfaces
 @inject IPostService postService
-@inject IUserService userService
+@inject NavigationManager NavMgr;
 <h3>Posts</h3>
+
+<div class="filter-bar">
+    <div class="filters-container">
+        <img src="icons/@(doShowFilters ? "clear_" : "")funnel.png" class="funnel" @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel"/>
+        @if (doShowFilters)
+        {
+            <div class="filter">
+                <label>Username:</label>
+                <input type="text" @bind="usernameFilter"/>
+            </div>
+            <div class="filter">
+                <label>User id:</label>
+                <input type="number" @bind="userIdFilter"/>
+            </div>
+            <div class="filter">
+                <label>Title contains:</label>
+                <input type="text" @bind="titleContainsFilter"/>
+            </div>
+            <div class="filter">
+                <label>Is completed?</label>
+                <select @bind="completedStatusFilter">
+                    <option value="all">All</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+        }
+    </div>
+</div>
 
 <div>
     <button @onclick="LoadPosts">Load</button>
@@ -14,12 +43,23 @@
 @code {
     private IEnumerable<Post> posts;
     private string msg = "";
+    private bool doShowFilters = false;
+    
+    private string? usernameFilter;
+    private int? userIdFilter;
+    private string? titleContainsFilter;
+    private string? completedStatusFilter;
 
     private async Task LoadPosts()
     {
         try
         {
-            posts = await userService.GetPosts();
+            bool? completedFilterValue = null;
+            if (!string.IsNullOrEmpty(completedStatusFilter) && !completedStatusFilter.Equals("all"))
+            {
+                completedFilterValue = bool.Parse(completedStatusFilter);
+            }
+            posts = await postService.GetAsync(usernameFilter,userIdFilter,titleContainsFilter, completedFilterValue);
         }
         catch (Exception e)
         {
@@ -27,11 +67,17 @@
             msg = e.Message;
         }
     }
+
+    private void ViewPost()
+    {
+        NavMgr.NavigateTo("/ViewPost");
+    }
     
 }
 
 @if (posts == null)
 {
+    <p>No Posts to display = NULL</p>
 }
 else if (!posts.Any())
 {
@@ -50,7 +96,7 @@ else
         <tbody>
         @foreach (var item in posts)
         {
-            <tr>
+            <tr @onclick="ViewPost")>
                 <td>@item.Id</td>
                 <td>@item.Owner.UserName</td>
                 <td>@item.Title</td>

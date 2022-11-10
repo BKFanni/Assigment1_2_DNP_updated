@@ -4,6 +4,7 @@ public class SearchUserParameterDTO
 {
 
     public string? UsernameContains { get;  }
+    
 
     public SearchUserParameterDTO(string? usernameContains)
     {
