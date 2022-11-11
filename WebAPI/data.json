@@ -1,0 +1,33 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Lolek",
+      "Password": null
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Title": "12345",
+      "Description": "222222",
+      "IsCompleted": false,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lolek",
+        "Password": null
+      }
+    },
+    {
+      "Id": 2,
+      "Title": "Testet",
+      "Description": "test 2 is goooood",
+      "IsCompleted": false,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lolek",
+        "Password": null
+      }
+    }
+  ]
+}
