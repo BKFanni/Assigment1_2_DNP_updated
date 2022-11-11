@@ -44,7 +44,6 @@ D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\Microsof
 D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\appsettings.json
-C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\data.json
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.exe
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
@@ -86,3 +85,4 @@ C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\re
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\data.json

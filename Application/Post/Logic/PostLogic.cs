@@ -27,6 +27,7 @@ public class PostLogic : IPostLogic
 
         ValidatePost(dto);
         Shared.Models.Post post = new Shared.Models.Post(user, dto.Title, dto.Description, dto.IsCompleted);
+        user.Posts = new List<Shared.Models.Post>();
         user.Posts.Add(post);
         Shared.Models.Post created = await postDAO.CreateAsync(post);
         return created;

@@ -1,6 +1,56 @@
-﻿@page "/ViewPost"
-<h3>ViewPost</h3>
+﻿@page "/ViewPost/{parameter}"
+@using HttpClient.ClientInterfaces
+@using global::Shared.Models
+@inject IPostService postService
+
+
+<div>
+    <button @onclick="LoadPost">Load</button>
+</div>
+
+
+
+@if (post != null)
+{
+    
+    <h5>Title: @post.Title</h5><h5>Owner: @post.Owner.UserName</h5>
+    <p>Content: @post.Description</p>
+}
+
 
 @code {
+    [Parameter]
+    public string? parameter { get;set; }
+
+    private int id { get; set; }
+
+    public IEnumerable<Post> posts;
+
+    public Post post;
     
+    
+
+    public async Task getPost()
+    {
+        try
+        {
+            id = int.Parse(parameter);
+            posts = await postService.GetAsync("", id, "", null);
+            posts = await postService.GetAsync("", id, "", true);
+            posts = await postService.GetAsync("", id, "", false);
+            post = posts.ToList()[id-1];
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+        
+    }
+
+    public async Task LoadPost()
+    {
+        await getPost();
+    }
+
 }

@@ -2,70 +2,32 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Fanni",
-      "Password": null,
-      "Posts": null
+      "UserName": "Lolek",
+      "Password": null
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Title": "12345",
+      "Description": "222222",
+      "IsCompleted": false,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lolek",
+        "Password": null
+      }
     },
     {
       "Id": 2,
-      "UserName": "Anna",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 3,
-      "UserName": "Klau",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 4,
-      "UserName": "Somebody",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 5,
-      "UserName": "wqfqw",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 6,
-      "UserName": "You",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 7,
-      "UserName": "Fannika",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 8,
-      "UserName": "asdf",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 9,
-      "UserName": "wadwqf",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 10,
-      "UserName": "wtfwagaw",
-      "Password": null,
-      "Posts": null
-    },
-    {
-      "Id": 11,
-      "UserName": "nmb",
-      "Password": null,
-      "Posts": null
+      "Title": "Testet",
+      "Description": "test 2 is goooood",
+      "IsCompleted": false,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Lolek",
+        "Password": null
+      }
     }
-  ],
-  "Posts": []
+  ]
 }
