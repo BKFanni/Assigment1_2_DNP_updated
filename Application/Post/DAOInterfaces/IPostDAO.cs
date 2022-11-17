@@ -9,4 +9,6 @@ public interface IPostDAO
     Task<IEnumerable<Shared.Models.Post>> GetAsync(SearchPostParametersDTO searchParameters);
     Task UpdateAsync(Shared.Models.Post post);
     Task<Shared.Models.Post> GetByIdAsync(int id);
-    }
+
+    Task DeleteAsync(int id);
+}
