@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\BlazorWASM.csproj": {}
+    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\BlazorWASM\\BlazorWASM.csproj": {}
   },
   "projects": {
-    "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\BlazorWASM.csproj": {
+    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\BlazorWASM\\BlazorWASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\BlazorWASM.csproj",
+        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\BlazorWASM\\BlazorWASM.csproj",
         "projectName": "BlazorWASM",
-        "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\BlazorWASM.csproj",
-        "packagesPath": "C:\\Users\\tstfa\\.nuget\\packages\\",
-        "outputPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\BlazorWASM\\obj\\",
+        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\BlazorWASM\\BlazorWASM.csproj",
+        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tstfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\HttpClient.csproj": {
-                "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\HttpClient.csproj"
+              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\HttpClient.csproj": {
+                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\HttpClient.csproj"
               }
             }
           }
@@ -83,30 +89,36 @@
         }
       }
     },
-    "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\HttpClient.csproj": {
+    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\HttpClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\HttpClient.csproj",
+        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\HttpClient.csproj",
         "projectName": "HttpClient",
-        "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\HttpClient.csproj",
-        "packagesPath": "C:\\Users\\tstfa\\.nuget\\packages\\",
-        "outputPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\HttpClient\\obj\\",
+        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\HttpClient.csproj",
+        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\HttpClient\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tstfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\Shared.csproj"
+              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj"
               }
             }
           }
@@ -140,22 +152,28 @@
         }
       }
     },
-    "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\Shared.csproj": {
+    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\tstfa\\.nuget\\packages\\",
-        "outputPath": "D:\\3rdSEMESTER\\DNP\\Assigment 1 + 2\\Assigment1_2\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tstfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

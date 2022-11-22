@@ -6,8 +6,8 @@ using Application.LogicInterfaces;
 using Application.Post.DAOInterfaces;
 using Application.Post.Logic;
 using Application.Post.LogicInterfaces;
-using FileData;
-using FileData.DAOs;
+using EfcDataAccess;
+using EfcDataAccess.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -20,11 +20,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<FileContext>();
-builder.Services.AddScoped<IUserDAO, UserFileDAO>();
+builder.Services.AddScoped<IUserDAO, UserEfcDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
-builder.Services.AddScoped<IPostDAO, PostFileDAO>();
+builder.Services.AddScoped<IPostDAO, PostEfcDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
+builder.Services.AddDbContext<PostContext>();
 /*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;

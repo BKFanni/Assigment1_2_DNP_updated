@@ -11,53 +11,53 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorWASM
 build_property.RootNamespace = BlazorWASM
-build_property.ProjectDir = D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM\
+build_property.ProjectDir = C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\BlazorWASM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\3rdSEMESTER\DNP\Assigment 1 + 2\Assigment1_2\BlazorWASM
+build_property.MSBuildProjectDirectory = C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\BlazorWASM
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/App.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/Index.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewPost.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewPost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Shared/SurveyPrompt.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/_Imports.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/CreatePost.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ceegisofnu
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/CreateUser.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lmj193ty0n
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewPosts.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lj17aabdv5
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Pages/ViewUsers.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewUsers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-b8bn5keb44
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Shared/MainLayout.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jk00ermrez
 
-[D:/3rdSEMESTER/DNP/Assigment 1 + 2/Assigment1_2/BlazorWASM/Shared/NavMenu.razor]
+[C:/Users/Lolek/RiderProjects/Assigment1_2_DNP_updated/BlazorWASM/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-69rflur3ak

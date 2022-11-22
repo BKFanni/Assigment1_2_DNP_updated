@@ -4,11 +4,11 @@ namespace Shared.DTOs;
 
 public class PostCreationDTO
 {
-    public string Title { get; }
-    public string Description { get; }
-    public bool IsCompleted { get; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public bool IsCompleted { get; set; }
 
-    public int Id { get; }
+    public int Id { get; set; }
     
     public PostCreationDTO(int id,string title, string description, bool isCompleted)
     {
@@ -23,5 +23,10 @@ public class PostCreationDTO
         Id = selectedUserId;
         Title = postTitle;
         Description = postDesc;
+    }
+
+    public PostCreationDTO()
+    {
+        
     }
 }

@@ -50,6 +50,20 @@
     private string? titleContainsFilter;
     private string? completedStatusFilter;
 
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            //LoadPosts()
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
     private async Task LoadPosts()
     {
         try
@@ -68,16 +82,17 @@
         }
     }
 
-    private void ViewPost()
+    private void ViewPost(int id)
     {
-        NavMgr.NavigateTo("/ViewPost");
+        string parameter = id.ToString();
+        NavMgr.NavigateTo($"/ViewPost/{parameter}");
     }
     
 }
 
 @if (posts == null)
 {
-    <p>No Posts to display = NULL</p>
+    
 }
 else if (!posts.Any())
 {
@@ -96,7 +111,7 @@ else
         <tbody>
         @foreach (var item in posts)
         {
-            <tr @onclick="ViewPost")>
+            <tr @onclick="()=>ViewPost(item.Id)">
                 <td>@item.Id</td>
                 <td>@item.Owner.UserName</td>
                 <td>@item.Title</td>
