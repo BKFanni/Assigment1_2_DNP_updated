@@ -26,9 +26,6 @@ namespace EfcDataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("OwnerId")
                         .HasColumnType("INTEGER");
 
@@ -40,7 +37,7 @@ namespace EfcDataAccess.Migrations
 
                     b.HasIndex("OwnerId");
 
-                    b.ToTable("Todos");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Shared.Models.User", b =>

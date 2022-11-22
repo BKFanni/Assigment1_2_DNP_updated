@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfcDataAccess.Migrations
 {
     [DbContext(typeof(PostContext))]
-    [Migration("20221117133429_InitialCreate")]
+    [Migration("20221122153331_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -29,9 +29,6 @@ namespace EfcDataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("OwnerId")
                         .HasColumnType("INTEGER");
 
@@ -43,7 +40,7 @@ namespace EfcDataAccess.Migrations
 
                     b.HasIndex("OwnerId");
 
-                    b.ToTable("Todos");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Shared.Models.User", b =>

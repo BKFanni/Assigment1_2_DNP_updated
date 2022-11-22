@@ -26,7 +26,7 @@ public class PostLogic : IPostLogic
         }
 
         ValidatePost(dto);
-        Shared.Models.Post post = new Shared.Models.Post(user, dto.Title, dto.Description, dto.IsCompleted);
+        Shared.Models.Post post = new Shared.Models.Post(user, dto.Title, dto.Description);
         user.Posts = new List<Shared.Models.Post>();
         user.Posts.Add(post);
         Shared.Models.Post created = await postDAO.CreateAsync(post);
@@ -59,9 +59,8 @@ public class PostLogic : IPostLogic
         User userToUse = user ?? existing.Owner;
         string titleToUse = dto.Title ?? existing.Title;
         string descToUse = dto.Description ?? existing.Description;
-        bool isCompleted = dto.IsCompleted ?? existing.IsCompleted;
 
-            Shared.Models.Post updated = new(userToUse, titleToUse, descToUse, isCompleted)
+            Shared.Models.Post updated = new(userToUse, titleToUse, descToUse)
         {
             Id = existing.Id
         };

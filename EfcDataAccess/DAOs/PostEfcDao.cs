@@ -37,11 +37,7 @@ public class PostEfcDao : IPostDAO
         {
             query = query.Where(t => t.Owner.Id == searchParams.UserId);
         }
-    
-        if (searchParams.completedStatus != null)
-        {
-            query = query.Where(t => t.IsCompleted == searchParams.completedStatus);
-        }
+        
     
         if (!string.IsNullOrEmpty(searchParams.TitleContains))
         {

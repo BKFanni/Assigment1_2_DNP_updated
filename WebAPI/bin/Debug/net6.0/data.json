@@ -4,6 +4,11 @@
       "Id": 1,
       "UserName": "Lolek",
       "Password": null
+    },
+    {
+      "Id": 2,
+      "UserName": "Lolek2",
+      "Password": null
     }
   ],
   "Posts": [
@@ -26,6 +31,17 @@
       "Owner": {
         "Id": 1,
         "UserName": "Lolek",
+        "Password": null
+      }
+    },
+    {
+      "Id": 3,
+      "Title": "Test for camera",
+      "Description": "Test is working correctly",
+      "IsCompleted": false,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Lolek2",
         "Password": null
       }
     }

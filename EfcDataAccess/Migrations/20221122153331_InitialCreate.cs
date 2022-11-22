@@ -25,21 +25,20 @@ namespace EfcDataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Todos",
+                name: "Posts",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(type: "TEXT", nullable: false),
                     Description = table.Column<string>(type: "TEXT", nullable: false),
-                    IsCompleted = table.Column<bool>(type: "INTEGER", nullable: false),
                     OwnerId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Todos", x => x.Id);
+                    table.PrimaryKey("PK_Posts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Todos_Users_OwnerId",
+                        name: "FK_Posts_Users_OwnerId",
                         column: x => x.OwnerId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -47,8 +46,8 @@ namespace EfcDataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Todos_OwnerId",
-                table: "Todos",
+                name: "IX_Posts_OwnerId",
+                table: "Posts",
                 column: "OwnerId");
         }
 
@@ -56,7 +55,7 @@ namespace EfcDataAccess.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Todos");
+                name: "Posts");
 
             migrationBuilder.DropTable(
                 name: "Users");
