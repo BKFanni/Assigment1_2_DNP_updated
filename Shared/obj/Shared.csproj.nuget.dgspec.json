@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {}
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\obj\\",
+        "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
+        "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
