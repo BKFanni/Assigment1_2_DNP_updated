@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\obj\\",
+        "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
+        "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj"
+              "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj"
               }
             }
           }
@@ -63,40 +57,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj": {
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj",
         "projectName": "EfcDataAccess",
-        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj",
-        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\obj\\",
+        "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj",
+        "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
+        "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj"
+              "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
+                "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj"
               }
             }
           }
@@ -142,32 +130,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Shared\\obj\\",
+        "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
+        "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -211,43 +193,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj": {
+    "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Lolek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\WebAPI\\obj\\",
+        "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\berab\\.nuget\\packages\\",
+        "outputPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lolek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\berab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\Application\\Application.csproj"
+              "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj": {
+                "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\Application\\Application.csproj"
               },
-              "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj": {
-                "projectPath": "C:\\Users\\Lolek\\RiderProjects\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj"
+              "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj"
               }
             }
           }
@@ -294,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

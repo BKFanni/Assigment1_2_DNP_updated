@@ -17,3 +17,22 @@ C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\ne
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache
 C:\Users\Lolek\RiderProjects\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\ref\EfcDataAccess.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.deps.json
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.runtimeconfig.json
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.pdb
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\Application.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\Shared.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\Application.pdb
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\bin\Debug\net6.0\Shared.pdb
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.AssemblyReference.cache
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfoInputs.cache
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfo.cs
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CoreCompileInputs.cache
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CopyComplete
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\refint\EfcDataAccess.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\EfcDataAccess\obj\Debug\net6.0\ref\EfcDataAccess.dll
