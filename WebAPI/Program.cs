@@ -10,6 +10,8 @@ using EfcDataAccess;
 using EfcDataAccess.DAOs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Shared.Authorization;
+using WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,12 +22,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// ADDED SCOPES ---------------------------------------------------------------
 builder.Services.AddScoped<IUserDAO, UserEfcDao>();
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 builder.Services.AddScoped<IPostDAO, PostEfcDao>();
 builder.Services.AddScoped<IPostLogic, PostLogic>();
 builder.Services.AddDbContext<PostContext>();
-/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+// JWT AUTHENTICATION BUILDER INFO -----------------------------------------------------------
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
     options.SaveToken = true;
@@ -38,7 +44,10 @@ builder.Services.AddDbContext<PostContext>();
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
-*/
+
+// Auth Policies -----------------------------------
+AuthorizationPolicies.AddPolicies(builder.Services);
+
 var app = builder.Build();
 
 app.UseCors(x => x
@@ -62,9 +71,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.UseAuthorization();
-
-//app.UseAuthentication();
+// Authentication + Authorization ------------------------------------------------------
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

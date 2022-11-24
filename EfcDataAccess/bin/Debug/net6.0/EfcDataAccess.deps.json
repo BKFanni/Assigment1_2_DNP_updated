@@ -25,19 +25,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Options": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Authorization/6.0.10": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.10",
@@ -48,41 +35,6 @@
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.1022.47617"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Authorization.Policy/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Authorization": "6.0.10"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "System.Text.Encodings.Web": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/2.2.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
           }
         }
       },
@@ -497,8 +449,7 @@
       },
       "Shared/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.10",
-          "Microsoft.AspNetCore.Authorization.Policy": "2.2.0"
+          "Microsoft.AspNetCore.Authorization": "6.0.10"
         },
         "runtime": {
           "Shared.dll": {}
@@ -519,40 +470,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
-      "path": "microsoft.aspnetcore.authentication.abstractions/2.2.0",
-      "hashPath": "microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Authorization/6.0.10": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-WzMlSLdNdBttOGU/aPBjq6tre/N1fPySHkbv8hsEkE40NIU8vuuIRwUJRe9QCTKlwM9apUbSzhjMBdOhp+15vQ==",
       "path": "microsoft.aspnetcore.authorization/6.0.10",
       "hashPath": "microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authorization.Policy/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aJCo6niDRKuNg2uS2WMEmhJTooQUGARhV2ENQ2tO5443zVHUo19MSgrgGo9FIrfD+4yKPF8Q+FF33WkWfPbyKw==",
-      "path": "microsoft.aspnetcore.authorization.policy/2.2.0",
-      "hashPath": "microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
-      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
-      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
-      "path": "microsoft.aspnetcore.http.features/2.2.0",
-      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/6.0.10": {
       "type": "package",

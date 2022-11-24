@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dzdIRUD9ZS71ysA6Q8l7JCF7Jj3VGDDGYSvwzZNSu9MClFf+PRHTtmCCpRxB/ZamHgpaC0pWrY6em8x3qh5+mw==",
+  "dgSpecHash": "TpwJByr3g4/qJ7FFm64i6ZvHeRi35thOhJm1LgKJMROp5KZ0F0PRn0XsWn3aS7K8rZmrqOm318EEGii3kEYZZA==",
   "success": true,
   "projectFilePath": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\EfcDataAccess\\EfcDataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berab\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
-    "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
-    "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\berab\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

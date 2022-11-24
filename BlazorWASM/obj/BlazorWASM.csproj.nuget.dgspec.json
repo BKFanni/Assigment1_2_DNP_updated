@@ -177,10 +177,6 @@
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[6.0.10, )"
-            },
-            "Microsoft.AspNetCore.Authorization.Policy": {
-              "target": "Package",
-              "version": "[2.2.0, )"
             }
           },
           "imports": [
