@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8OidB8M4nR2Z6PAxltlR8opbIe/LglWE+NUV++2ypKQ=",
+  "Hash": "3vHivyGcgD6TRGyMTXJPkx6GF7zPIaa0U4YhtWfHItg=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -238,23 +238,6 @@
       "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authentication.Abstractions.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Authentication.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -272,12 +255,12 @@
       "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.Policy.dll",
+      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.Policy.dll",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Authorization.Policy.dll"
+      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -303,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -355,40 +338,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
-    },
-    {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Abstractions.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Abstractions.dll"
-    },
-    {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Features.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\berab\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
@@ -3740,6 +3689,23 @@
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
     },
     {
+      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\1OB0P2WQ.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\1SgpryS7.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -4607,23 +4573,6 @@
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.dll"
     },
     {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\F5M97R9z.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Features.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Features.dll"
-    },
-    {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\F7KQep2n.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -5066,40 +5015,6 @@
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Extensions.dll"
     },
     {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\IHoXDweu.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Abstractions.dll"
-    },
-    {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\IJYZtob7.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authentication.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authentication.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\IPFF+iIY.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -5336,23 +5251,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.dll"
-    },
-    {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\krx9ZTlQ.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\KuX28YXg.gz",
@@ -6018,23 +5916,6 @@
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Timer.dll"
     },
     {
-      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\QzqkfqQx.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.Policy.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.Policy.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.Policy.dll"
-    },
-    {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\R0L+iIBQ.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -6271,6 +6152,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.dll"
+    },
+    {
+      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\SVs8zMnc.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\sy1C8pPB.gz",
@@ -7393,6 +7291,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\funnel.png"
+    },
+    {
+      "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\wwwroot\\images\\HomePicture.jpg",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/HomePicture.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HomePicture.jpg"
     },
     {
       "Identity": "C:\\Denmark studies\\3rd semester\\DNP\\Assigment1_2_DNP_updated\\BlazorWASM\\wwwroot\\index.html",

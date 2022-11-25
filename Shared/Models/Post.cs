@@ -1,9 +1,11 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Shared.Models;
 
 public class Post
 {
+    [Key]
     public int Id { get; set; }
     public string Title{ get;private  set; }
     public string Description{ get; set; }

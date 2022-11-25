@@ -27,6 +27,8 @@
     private string password = "";
     private string resultMsg = "";
     private string color = "";
+    private int Age = 20;
+    private string Name = "Mario";
 
     private async Task Create()
     {
@@ -34,9 +36,11 @@
 
         try
         {
-            await userService.Create(new UserCreationDTO(username, password));
+            await userService.Create(new UserCreationDTO(username, password, Age, Name));
             username = "";
             password = "";
+            Age = 20;
+            Name = "Mario";
             resultMsg = "User successfully created";
             color = "green";
         }

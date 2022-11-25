@@ -22,10 +22,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewPost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope = b-ceegisofnu
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-lmj193ty0n
 
+[C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ge7fcwz0nr
+
 [C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-lj17aabdv5
@@ -53,6 +53,10 @@ build_metadata.AdditionalFiles.CssScope = b-lj17aabdv5
 [C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Pages/ViewUsers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-b8bn5keb44
+
+[C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7t9rxybv3q
 
 [C:/Denmark studies/3rd semester/DNP/Assigment1_2_DNP_updated/BlazorWASM/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

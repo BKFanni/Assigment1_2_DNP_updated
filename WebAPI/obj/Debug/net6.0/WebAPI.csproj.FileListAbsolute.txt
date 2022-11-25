@@ -214,3 +214,6 @@ C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\obj\Debug\ne
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
