@@ -1,7 +1,6 @@
 ﻿namespace Shared.Authorization;
 
 using Microsoft.Extensions.DependencyInjection;
-using System.Security.Claims;
 
 public static class AuthorizationPolicies
 {

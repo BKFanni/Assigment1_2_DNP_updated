@@ -2317,7 +2317,6 @@ C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debu
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\BlazorWASM.csproj.CoreCompileInputs.cache
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\BlazorWASM.MvcApplicationPartsAssemblyInfo.cache
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\B2zvicnu.gz
-C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\krx9ZTlQ.gz
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\nypvS2LL.gz
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\ZinIqWb9.gz
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\xJPMKmKG.gz
@@ -2537,3 +2536,8 @@ C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debu
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\ref\BlazorWASM.dll
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\scopedcss\Shared\LoginDisplay.razor.rz.scp.css
 C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\SVs8zMnc.gz
+C:\Denmark studies\3rd semester\DNP\Assigment1_2_DNP_updated\BlazorWASM\obj\Debug\net6.0\build-gz\1OB0P2WQ.gz
